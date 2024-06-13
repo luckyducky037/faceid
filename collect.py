@@ -4,7 +4,7 @@ import os
 import time
 number_imgs = 50
 labels = ["face"]
-IMAGES_PATH = os.path.join('data2', 'images')
+IMAGES_PATH = os.path.join('data', 'images')
 cap = cv2.VideoCapture(0)
 for label in labels:
     print('Collecting images for {}'.format(label))
